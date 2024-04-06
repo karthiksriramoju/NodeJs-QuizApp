@@ -17,15 +17,11 @@ Once you have Node.js and npm installed, follow these steps:
 2 . Navigate to the project directory:
 
             cd NodeJs-QuizApp
-      
-3. Install the dependencies:
 
-            npm install
+3. start the application
 
-4. start the application
-
-            npm start
-6. Access the application in your web browser at
+            node index.js
+4. Access the application in your web browser at
 
      http://localhost:3000.
 
