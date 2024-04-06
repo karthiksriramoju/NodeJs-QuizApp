@@ -16,7 +16,7 @@ Once you have Node.js and npm installed, follow these steps:
 
 2 . Navigate to the project directory:
 
-            cd NodeJs-QuizApp
+            cd NodeJs-QuizApp-main
 
 3. start the application
 
