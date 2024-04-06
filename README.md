@@ -12,7 +12,7 @@ Once you have Node.js and npm installed, follow these steps:
 
 1. Clone this repository to your local machine:
 
-            git clone <repository_url>
+            git clone https://github.com/karthik1714/NodeJs-QuizApp
 
 2 . Navigate to the project directory:
 
