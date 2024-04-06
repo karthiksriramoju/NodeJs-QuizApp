@@ -12,21 +12,20 @@ Once you have Node.js and npm installed, follow these steps:
 
 1. Clone this repository to your local machine:
 
-      git clone <repository_url>
+            git clone <repository_url>
 
 2 . Navigate to the project directory:
 
-      cd NodeJs-QuizApp
-
+            cd NodeJs-QuizApp
+      
 3. Install the dependencies:
 
-      npm install
+            npm install
 
 4. start the application
 
-      npm start
-
-5. Access the application in your web browser at
+            npm start
+6. Access the application in your web browser at
 
      http://localhost:3000.
 
