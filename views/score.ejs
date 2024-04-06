@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Score</title>
+    <link rel="stylesheet" href="/score-styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Score</h1>
+        <div class="score">
+            <p>Your final score: <strong><%= finalScore %></strong> out of <strong><%= totalQuestions %></strong></p>
+        </div>
+        
+        <!-- Display individual feedback for each question -->
+        <% feedbackArray.forEach((feedback, index) => { %>
+            <div class="feedback">
+                <h3>Question <%= index + 1 %></h3>
+                <p><strong>Question:</strong> <%= feedback.question %></p>
+                <p><strong>Your Answer:</strong> <%= feedback.submittedAnswer %></p>
+                <% if (feedback.isCorrect) { %>
+                    <p class="correct">Result: Correct</p>
+                <% } else { %>
+                    <p class="incorrect">Result: Incorrect</p>
+                    <p><strong>Correct Answer:</strong> <%= feedback.correctAnswer %></p>
+                <% } %>
+            </div>
+        <% }) %>
+        <div class="try-again">
+            <button onclick="window.location.href = '/quiz/1';">Try Again</button>
+        </div>
+    </div>
+
+</body>
+</html>

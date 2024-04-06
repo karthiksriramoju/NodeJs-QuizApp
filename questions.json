@@ -1,0 +1,53 @@
+[
+  {
+      "question": "What does npm stand for?",
+      "options": ["Node Package Manager", "Node Project Manager", "New Project Module", "None of the above"],
+      "answer": "Node Package Manager"
+  },
+  {
+      "question": "Which of the following is NOT a core module in Node.js?",
+      "options": ["fs", "http", "path", "request"],
+      "answer": "request"
+  },
+  {
+      "question": "What is the main purpose of the 'require' function in Node.js?",
+      "options": ["To define a new module", "To include external libraries/modules", "To declare global variables", "To create a new HTTP server"],
+      "answer": "To include external libraries/modules"
+  },
+  {
+      "question": "What is the event loop in Node.js?",
+      "options": ["A loop that listens for HTTP requests", "A loop that handles asynchronous operations", "A loop that iterates through arrays", "None of the above"],
+      "answer": "A loop that handles asynchronous operations"
+  },
+  {
+      "question": "Which function is used to handle asynchronous operations in Node.js?",
+      "options": ["async", "await", "callback", "promise"],
+      "answer": "callback"
+  },
+  {
+      "question": "What is the purpose of the 'module.exports' in Node.js?",
+      "options": ["To import modules", "To export functions or objects from a module", "To define global variables", "To start a new Node.js process"],
+      "answer": "To export functions or objects from a module"
+  },
+  {
+      "question": "What does the 'fs' module in Node.js allow you to do?",
+      "options": ["Read and write files", "Create web servers", "Handle HTTP requests", "None of the above"],
+      "answer": "Read and write files"
+  },
+  {
+      "question": "Which of the following is NOT a valid HTTP method?",
+      "options": ["GET", "POST", "PUT", "READ"],
+      "answer": "READ"
+  },
+  {
+      "question": "What is the role of the 'next' function in Express middleware?",
+      "options": ["To end the request-response cycle", "To call the next middleware function in the stack", "To send a response to the client", "To handle errors"],
+      "answer": "To call the next middleware function in the stack"
+  },
+  {
+      "question": "What is the purpose of the 'body-parser' middleware in Express?",
+      "options": ["To parse incoming request bodies", "To handle HTTP requests", "To generate HTML templates", "To serve static files"],
+      "answer": "To parse incoming request bodies"
+  }
+
+]
